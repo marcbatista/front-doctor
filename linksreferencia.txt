@@ -1,0 +1,6 @@
+https://bootsnipp.com/snippets/featured/bootstrap-snipp-for-datatable
+
+
+atendente 
+medico 
+admin

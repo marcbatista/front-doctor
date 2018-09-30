@@ -1,0 +1,123 @@
+.page-login{
+    background-color: #cbd2de;
+    height: 100vh;
+}
+
+.page-login main section{
+    /*transform: translateY(90%); */
+    top: 30%;
+    position: absolute;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.page-login main section .container{
+    background-color: #007bffb5;
+    height: 240px;
+    padding: 20px 0;
+    border-radius: 5%;
+}
+
+.page-login main section .container .title {
+    color: #fff;
+}
+
+.page-login main section .container .login form input{
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.page-login main section .container .login .button{
+    margin-top: 10px;
+}
+
+.page-login main section .container .login .button button{
+    background: #fff;
+}
+
+/*header*/
+
+
+.navbar .container .navbar-header .title{
+    position: absolute;
+    width: 100%;
+}
+
+.navbar .navbar-header .title p{
+    color: #fff; 
+    text-align: center;
+    transform: translateY(50%);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navbar-inverse{
+    background-color: #007bff !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color:  transparent!important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff !important;
+}
+
+
+
+
+/*modal*/
+
+.modal-content{
+    height: 100vh;
+}
+
+.modal-dialog{
+    margin: 0 !important;
+}
+
+.hide-x{
+    opacity: 1;
+}
+.hide-seta{
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-title{
+        text-align: center;
+    }
+    .close{
+        float: left !important;
+    }
+    .hide-x{
+        opacity: 0;
+    }
+    .hide-seta{
+        opacity: 1;
+    }
+}/*fim modal*/
+
+/*tabela*/
+.table>thead>tr>th{
+    vertical-align: middle !important;
+}
+
+/*cadastro hospotal*/
+.title-cadastro{
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.formulario-cadastro{
+    margin-top: 10px;
+}
+
+.formulario-cadastro .button-hosp{
+    text-align: center;
+}
+

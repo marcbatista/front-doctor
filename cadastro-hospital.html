@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- começo header-->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+        <div class="title">
+            <p>Help Doctor !!!</p>
+        </div>   
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+<!-- fim header-->
+
+<section>  
+    <div class="title-cadastro"> 
+        <h3> Cadastro de Hospitais</h3>
+    </div>
+</section>
+<!-- add novo hospital-->
+
+<div class="container">
+    <div class="formulario-cadastro">
+    <form>
+        <div class="form-group">
+          <label >Nome do hospital</label>
+          <input type="text" class="form-control"  placeholder="EX: Albino Salvador">
+        </div>
+        <div class="form-group">
+            <div class="row">   
+                <div class="col-sm-6">   
+                    <label >Rua</label>
+                    <input type="text" class="form-control"  placeholder="EX: Rua Carvalho Ramos">   
+                </div>
+                <div class="col-sm-6">   
+                    <label >Numero</label>
+                    <input type="number" class="form-control"  placeholder="EX: 234">   
+                </div>
+            </div>
+         </div>
+         <div class="form-group">
+                <div class="row">   
+                    <div class="col-sm-6">   
+                        <label >Bairro</label>
+                        <input type="text" class="form-control"  placeholder="EX: Liberdade">   
+                    </div>
+                    <div class="col-sm-6">   
+                        <label >Cidade</label>
+                        <input type="number" class="form-control"  placeholder="EX: São Paulo">   
+                    </div>
+                </div>
+             </div>
+         <div class="form-group">
+             <label >Estado</label>
+            <select  class="form-control">  
+                <option>São Paulo</option>
+                <option>Minas Gerais</option>
+                <option>Rio de Janeiro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label >Complemento</label>
+            <input type="text" class="form-control"  placeholder="EX: Bloco B">
+        </div>
+        <div class="button-hosp">
+            <button type="button" class="btn btn-success">ENVIAR</button>
+        </div>
+      </form>
+      </div>    
+ </div>     
+
+<!-- fim add novo hopsital-->
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+blue:      #007bffb5
+white:    #fff;
+gray: #cbd2de;
+    
